@@ -1,0 +1,16 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introsection
+        div.introcontainer
+            img(src="/static/halloween-png-21.png", alt="")
+            h1 Hallowen Night is here
+            img(src="/static/halloween-png-21.png", alt="")
+    section#sponsersection

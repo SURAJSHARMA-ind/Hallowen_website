@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eb6123;
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin-top: 2vh;
+    flex-wrap: wrap;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.inputtext{
+    padding: 1vh;
+    width: 60%;
+    margin-top: 2vh;
+    border-radius:6px;
+    border: none;
+}
+#btn{
+    padding: 1rem;
+    border: none;
+    background-color: black ;
+    color: #eb6123;
+    margin: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#footersection{
+    text-align: center;
+    height: 10vh;
+}

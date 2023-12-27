@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Nosifer&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Fontdiner Swanky', serif;
+    font-family: 'Nosifer', sans-serif;
+    overflow-x: hidden;
+}
+
+#navbar ul {
+    background-color: rgba(0, 0, 0, 0.953);
+    display: flex;
+    flex-direction: row;
+    justify-content:spa;
+    height: 15vh;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding: 1rem;
+}
+#navbar li a{
+    color: rgb(231, 51, 48);
+    text-decoration: none;
+}
+
+#introsection{
+height: 100vh;
+background-color: #eb6123;
+color: rgb(255, 255, 255);
+justify-content: center;
+text-align: center;
+padding-top: 40vh;
+font-size: x-large;
+}
+
+#blood{
+    background-color: #eb6123;
+    width: 100vw;
+    height: auto;
+
+}
+#blood img{
+  width: 100vw;
+  height: 6rem;
+
+}
+.introcontainer{
+    display: flex;
+   justify-content: center;
+}
+.introcontainer img{
+    height: 8rem;
+}
+#sponsersection{
+    height: 100vh;
+    background-color: rgb(144, 203, 61);
+}
+#footersection{
+    color: white;
+    text-align: center;
+    height: 15vh;
+    background-color: rgb(0, 0, 0);
+}

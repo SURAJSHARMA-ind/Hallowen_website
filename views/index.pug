@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Hallowen
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul  
+            img(src="static/icon.png", alt="")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/contact") Contact-us]
+            li #[a(href="/") Services]
+        div#blood 
+            img(src="static/pngegg.png", alt="")
+
+    section#introsection
+      div.introcontainer
+         img(src="/static/halloween-png-21.png", alt="")
+         h1 Hallowen Night is here
+         img(src="/static/halloween-png-21.png", alt="")
+    section#sponsersection
+        |  
+    footer#footersection
+        |All the right reserved to zombies
+    script
+      include ../static/script.js
